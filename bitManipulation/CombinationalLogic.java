@@ -1,7 +1,5 @@
 package bitManipulation;
 
-
-
 /*
  * 
 Construct a 6 input gate which performs the following logical operation:
