@@ -6,5 +6,6 @@ This repository contains my solutions of different online platform DSA questions
 <ul>
 
 <li>Day 1: 4 Easy Bit Manipulation Questions	(August 4, 2021)</li>
-
+<li>Day 2: 6 Easy Bit Manipulation Questions	(August 5, 2021)</li>
+  
 </ul>
