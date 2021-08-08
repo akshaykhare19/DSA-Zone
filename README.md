@@ -1,7 +1,18 @@
 # DSA-Zone
 
 This repository contains my solutions of different online platform DSA questions in Java, while learning Data Structures.
-<p> <h3><strong>Following is the day count:<strong></h3>
+
+<h2>Topics:</h2>
+
+<ol>
+  
+  <li>Bit Manipulation: 17 Questions</li>
+
+</ol>
+
+
+<h2>Day Count:</h2>
+
 
 <ul>
 
