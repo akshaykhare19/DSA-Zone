@@ -7,7 +7,7 @@ This repository contains my solutions of different online platform DSA questions
 <ol>
   
   <li>Bit Manipulation: 17 Questions</li>
-  <li>Mathematics: 13 Questions</li>
+  <li>Mathematics: 15 Questions</li>
 
 </ol>
 
@@ -23,5 +23,6 @@ This repository contains my solutions of different online platform DSA questions
   <li>Day 4: 5 Easy Bit Manipulation Questions	(August 8, 2021)</li>
   <li>Day 5: 3 Questions to Learn Mathematics Concept	(August 20, 2021)</li>
   <li>Day 6: 10 Easy Mathematics Questions	(August 21, 2021)</li>
+  <li>Day 6: 2 Easy Mathematics Questions	(August 23, 2021)</li>
   
 </ul>
