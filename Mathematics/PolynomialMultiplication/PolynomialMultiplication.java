@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 Given two polynomials represented by two arrays that contains the 
 coefficients of poynomials, returns the polynomial in form of array 
