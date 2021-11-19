@@ -8,7 +8,7 @@ This repository contains my solutions of different online platform DSA questions
   
   <li>Bit Manipulation: 17 Questions</li>
   <li>Mathematics: 23 Questions</li>
-  <li>Recursion: 4 Questions</li>
+  <li>Recursion: 7 Questions</li>
 
 </ol>
 
@@ -30,5 +30,6 @@ This repository contains my solutions of different online platform DSA questions
   <li>Day 10: 1 Easy Recursion Question	(September 4, 2021)</li>
   <li>Day 11: 1 Easy Recursion Question	(September 5, 2021)</li>
   <li>Day 12: 2 Easy Recursion Question	(November 17, 2021)</li>
+  <li>Day 13: 3 Easy Recursion Question	(November 19, 2021)</li>
   
 </ul>
