@@ -16,6 +16,7 @@ public class TowerOfHanoi
 
     public static void main(String[] args)
     {
+        //TIME COMPLEXITY: O(2^n)
         towerOfHanoi(3, "Source", "Helper", "Destination");
     }
 }
