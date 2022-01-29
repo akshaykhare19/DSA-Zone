@@ -36,16 +36,12 @@ Sample Input
 Sample Output
 
 7
-
 11
-
 13
-
 17
-
 19
-
 23
+
 */
 
 
@@ -70,5 +66,6 @@ public class PrimesInRange
             }
             if(isPrime == true) System.out.println(i);
         }
+        sc.close();
     } 
 }
