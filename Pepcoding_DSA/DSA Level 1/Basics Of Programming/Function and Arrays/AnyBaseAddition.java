@@ -58,7 +58,7 @@ public class AnyBaseAddition
         scn.close();
     }
 
-    private static int getSum(int b, int n1, int n2)
+    public static int getSum(int b, int n1, int n2)
     {
         int ans = 0, placeVal, carry = 0, power = 1;
         while(n1 > 0 || n2 > 0 || carry != 0){
