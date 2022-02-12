@@ -75,7 +75,7 @@ public class AnyBaseMultiplication
             }
             int nextLineResult = ans*factor;
             finalResult = getAddition(b, finalResult, nextLineResult);
-            factor*=b;
+            factor*=10;
         }
         return finalResult;
     }
