@@ -1,6 +1,7 @@
 public class SubarraySum
 {
-
+    //TC - O(n^2)
+    //SC - O(1)
     public static int bruteLargestSubarraySum(int a[])
     {
         int n = a.length;
@@ -17,6 +18,8 @@ public class SubarraySum
         return maxSum;
     }
 
+    //TC - O(n)
+    //SC - O(1)
     public static int kadaneAlgorithm(int a[])
     {
         int maxSum = 0;

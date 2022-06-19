@@ -1,2 +1,4 @@
 
-        // System.out.println(majorityElementLittleOptimalFinder(a));
+        //     System.out.print(i + " ");
+        // }
+        // System.out.println();
