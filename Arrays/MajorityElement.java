@@ -74,6 +74,8 @@ public class MajorityElement
         return 0;
     }
 
+    //TC - O(n)
+    //SC - O(1)
     static int majorityElementMostOptimalFinder(int a[])
     {
         int ans = a[0], priority = 1;

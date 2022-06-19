@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class SearchInSorted2DArray
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws Exception {
+        // write your code here
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -17,26 +17,20 @@ public class SearchInSorted2DArray
         int d = sc.nextInt();
         sc.close();
 
-        for(int i = 0; i < a.length; i++){
-            int l = 0, r = a[i].length-1;
-            
-            while(l <= r){
-                int mid = (l + r)/2;
+        int i = 0, j = n-1;
 
-                if(a[i][mid] == d){
-                    System.out.println(i + "\n" + mid);
-                    return;
-                }
-
-                else if(a[i][mid] > d){
-                    r = mid - 1;
-                }
-
-                else if(a[i][mid] < d){
-                    l = mid + 1;
-                }
+        while(i < n && j >= 0){
+            if(a[i][j] == d){
+                System.out.println(i + "\n" + j);
+                return;
+            }
+            else if(a[i][j] > d){
+                j--;
+            }
+            else if(a[i][j] < d){
+                i++;
             }
         }
         System.out.println("Not Found");
-    }    
+    }
 }
