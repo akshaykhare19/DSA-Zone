@@ -1,3 +1,5 @@
+//Find the maximum profit from buying and selling one stock
+
 public class StocksBuyAndSellOne 
 {
     //TC - O(n^2)
