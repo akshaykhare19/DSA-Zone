@@ -2,6 +2,8 @@
 
 public class SearchInSortedNRotated 
 {
+    //TC - O(log n)
+    //SC - O(1)
     public static int rotatedSearch(int a[], int key, int low, int high)
     {
         while(low <= high)
