@@ -1,3 +1,5 @@
+//Search element in an infinite array
+
 import java.util.*;
 public class SearchInInfiniteArray
 {
