@@ -11,22 +11,29 @@ public class SearchInSortedNRotated
             int mid = (low + high)/2;
             if(a[mid] == key) return mid;
 
+            //checks if the left part of the array is sorted or not
             if(a[low] < a[mid])
             {
+                //checks if the key element is present in the left part or not
                 if(key >= a[low] && key < a[mid])
                 {
+                    //discards the right part of the array
                     high = mid-1;
                 }
                 else{
+                    //discards the left part of the array
                     low = mid+1;
                 }
             }
             else{
+                //checks if the key element is present in the left part or not
                 if(key > a[mid] && key <= a[high])
                 {
+                    //discards the left part of the array
                     low = mid+1;
                 }
                 else{
+                    //discards the right part of the array
                     high = mid-1;
                 }
             }
