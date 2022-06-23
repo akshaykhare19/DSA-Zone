@@ -1,7 +1,11 @@
+//Search in a sorted 2D array using Binary Search Algorithm
+
 import java.util.*;
 
 public class SearchIn2DArray
 {
+    //TC - O(m+n), where a[m][n]
+    //SC - O(1)
     public static ArrayList<Integer> search(int a[][], int key)
     {
         ArrayList<Integer> al = new ArrayList<>();
