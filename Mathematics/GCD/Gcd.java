@@ -8,6 +8,7 @@ public class Gcd
     //using recursion
     static int gcd(int a, int b)
     {
+        System.out.println("gcd(" + a + "," + b + ")");
         if(b == 0) return a;
 
         return gcd(b, a%b);
