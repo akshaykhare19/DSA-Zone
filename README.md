@@ -1,6 +1,6 @@
 # DSA-Zone
 
-This repository contains my solutions of different online platform DSA questions in Java, while learning Data Structures.
+This repository contains my solutions of different online platform DSA questions in Java, while learning Data Structures and Algorithms.
 
 <h2>Topics:</h2>
 
